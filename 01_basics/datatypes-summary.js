@@ -36,3 +36,30 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+
+
+// ***********************************************************************************
+
+// Memories : Stack, Heap
+
+
+let myYoutubename = "Sagariscoding"
+
+let anothername = myYoutubename
+anothername = "do code"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+let userOne = {
+    email: "google@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "sagar@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
